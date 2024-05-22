@@ -1,0 +1,11 @@
+<?php
+// https://onlinephp.io/c/b452d
+
+$array = [];
+
+if(count($array) == 0) {
+  echo "array is empty.";
+}else {
+  echo "array is NOT empty.";
+}
+?>
