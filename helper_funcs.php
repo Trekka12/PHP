@@ -82,7 +82,7 @@ function printSimpleDebug($debug) {
   @return int - the index within the array of the value
 */
 function getArrayValueIndex($value, $array) {
-  return array_search(@value, $array);
+  return array_search($value, $array);
 }
 
 /**
